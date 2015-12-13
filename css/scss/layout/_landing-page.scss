@@ -1,0 +1,12 @@
+.large-image {
+  margin-top: 100px;
+  height: 100vh;
+  width: auto;
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
