@@ -18,7 +18,7 @@ body {
     font-size: 25px; }
 
 #image-one {
-  background-image: url("../img/675lt-one.jpg"); }
+  background-image: url("http://res.cloudinary.com/tempest/image/upload/c_limit,cs_srgb,dpr_1.0,q_80,w_10000/MTI5MzcyMDcyMDc2OTYzODEw.jpg"); }
 
 #image-two {
   background-image: url("../img/675lt-two.jpg"); }
@@ -34,6 +34,7 @@ body {
 
 .title-block {
   display: inline-block;
+  position: absolute;
   max-width: 500px;
   margin-left: 5%;
   margin-top: 20px;
@@ -53,15 +54,23 @@ body {
 @keyframes rotation {
   to {
     transform: rotate(360deg); } }
+.loaded-block {
+  position: absolute;
+  height: 200px;
+  width: 500px;
+  left: 0;
+  right: 0;
+  margin: 100px auto 0 auto;
+  background-color: rgba(126, 130, 122, 0.8);
+  text-align: center;
+  z-index: 1; }
+
 .large-image {
-  margin-top: 100px;
   height: 100vh;
   width: auto;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
-  .large-image:first-child {
-    margin-top: 0; }
 
 .loader-block {
   max-width: 600px;
