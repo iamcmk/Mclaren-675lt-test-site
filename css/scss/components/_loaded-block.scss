@@ -1,0 +1,11 @@
+.loaded-block {
+  position: absolute;
+  height: 200px;
+  width: 500px;
+  left:0;
+  right:0;
+  margin: 100px auto 0 auto;
+  background-color: rgba($loaded-grey, 0.8);
+  text-align: center;
+  z-index: 1;
+}
